@@ -1,5 +1,9 @@
 ### React complex state management using useReducer and useContext
-![Catalog n Cart](catalog_n_cart.png | width=300)
+<figure>
+<img src="./catalog_n_cart.png" alt="Catalog n Cart" width="300px" />
+<figcaption>Catalog n Cart</figcaption>
+</figure>
+
 Project catalog to Cart and Cart management is developed to test a complex example of useReducer and useContext with render performance optimization.
 
 ### `npm start`
