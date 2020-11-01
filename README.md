@@ -1,10 +1,6 @@
-# Getting Started with Create React App
+### React complex state management using useReducer and useContext
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+Project catalog to Cart and Cart management is developed to test a complex example of useReducer and useContext with render performance optimization.
 
 ### `npm start`
 
