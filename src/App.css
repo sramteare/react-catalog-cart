@@ -1,0 +1,59 @@
+ul, li, h1{
+  margin: 0;
+  padding: 0;
+}
+button {
+  font-weight: bold;
+  outline-width: 1px;
+  border: none;
+  color: #fff;
+  background-color: #f44336;
+  box-shadow : 2px 2px 4px grey;
+}
+button:active {
+  transition: transform ease-out 300ms;
+  /*box-shadow : 0 0 4px grey;*/
+  transform: scale(.8);
+}
+.App{
+  padding: 1rem;
+}
+.App > * + *{
+  margin-top: 2rem;
+}
+.card {
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: .6rem 0rem 1rem grey;
+}
+.product-list {
+  width: 500px;
+}
+.product-list li{
+  list-style: none;
+  align-content: center;
+  display: grid;
+  grid-template-columns: 10rem 1fr 3rem 4rem;
+  padding: .5rem;
+}
+.product-list li>*{
+  margin-right: 1rem;
+}
+.product-list li>*:nth-child(2){
+  margin-right: auto;
+}
+
+.product-list li>button{
+  position: relative;
+  width: auto;
+}
+.product-list li.head {
+  font-weight: bold;
+}
+.cart li{
+  grid-template-columns: 10rem 1fr 5rem 4rem;
+}
+.counter{
+  display: flex;
+  justify-content: space-between;
+}
